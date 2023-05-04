@@ -1,0 +1,26 @@
+.right .intro {
+    padding: 10px;
+    font-size: 1.3rem;
+    text-align: justify;
+}
+
+.right h2 {
+    font-size: 1.2rem;
+    margin-left: 15px;
+    text-transform: uppercase;
+    background-image: linear-gradient(45deg, #000, #f67802 20%, #f0a904 20%, #f67802 20%, #000);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.right section {
+    font-size: 1.2rem;
+    padding: 10px;
+}
+
+.right section > ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

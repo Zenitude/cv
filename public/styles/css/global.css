@@ -1,0 +1,39 @@
+*:not(ul), ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+
+html, body {
+    width: 100%;
+    min-height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    max-width: 1240px;
+    min-width: 280px;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 280px 20px 1fr;
+    margin: 0 auto;
+    box-shadow: 0 0 5px #000;
+}
+
+.left, .middle, .right {
+    height: 100%;
+}
+
+.left {
+    grid-column: 1 / 2;
+}
+
+.middle {
+    grid-column: 2 / 3;
+    background-color: #000;
+}
+
+.right {
+    grid-column: 3 / 4;
+}
